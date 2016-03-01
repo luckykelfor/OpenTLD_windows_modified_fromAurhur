@@ -116,7 +116,7 @@ int main(int argc, char * argv[]){
   capture.open(0);
   FileStorage fs;
   //Read options
-  //read_options(argc,argv,capture,fs);
+ // read_options(argc,argv,capture,fs);
   read_options2(capture,fs);
   //Init camera
   if (!capture.isOpened())
